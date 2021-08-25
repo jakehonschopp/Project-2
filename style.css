@@ -1,0 +1,132 @@
+
+
+
+.main-header {
+  font-family: Helvetica;
+  display: flex;
+  background-color: black; 
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.logo {
+  padding: 2% 0 0 2%; 
+  font-size: 24px; 
+}
+
+.middle-section {
+   display: flex; 
+}
+
+.introduction {
+  font-family: Helvetica;
+  display: flex; 
+  text-align: center; 
+  letter-spacing: 3px;
+  background-color: gray; 
+  font-size: 24px;
+  padding: 5% 1% 1% 1%; 
+  border-top: 25px solid cyan; 
+  border-left: 80px solid cyan; 
+  border-right: 80px solid cyan; 
+}
+
+.content {
+  display: flex;
+  background-color: purple; 
+  color: white; 
+}
+
+.people-img {
+  border: solid 8px white; 
+  width: 900px; 
+  height: 300px;
+  padding: 0 0 0 0;  
+}
+
+
+
+h4 { 
+  font-family: Helvetica; 
+  font-size: 24px; 
+  color: white;  
+  padding: 0 0 20px 80px;
+}
+
+.navbar {
+  font-family: Arial;
+  font-size: 20px; 
+  color: black; 
+  padding: 5% 5% 5% 20%; 
+  letter-spacing: 3px; 
+} 
+
+h1 {
+  font-family: Arial; 
+  font-size: 28px;
+  color: white;
+}
+
+.first-space {
+  padding: 5% 5% 5% 5%; 
+  text-align: left; 
+  
+}
+
+.second-space {
+  border-left: 5px solid black; 
+  padding: 5% 5% 5% 5%; 
+
+}
+
+.bottom {
+  border-top: solid 20px grey; 
+  background-color: grey; 
+  display: flex; 
+} 
+   
+
+h5 {
+  font-family: Arial; 
+  font-size: 18px; 
+  color: blue; 
+}
+
+h6 {
+  font-family: Arial;
+  font-size: 14px;
+  color: black; 
+}
+
+.card {
+  text-align: center;  
+  background-color: grey;
+}
+
+.question {
+  padding: 0 0 0 10%; 
+  border-top: solid 20px grey;
+  background-color: grey; 
+  display: flex;  
+  
+}
+
+
+.card-pic {
+  height: 200px;
+  width: 300px;
+  background-color: grey; 
+  margin: auto; 
+}
+
+.body {
+  border:  1px solid transparent;
+}
+
+
+@media only screen and (max-width: 1600px) {
+  .middle-section {
+    display: block;
+  }
+
